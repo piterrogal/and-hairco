@@ -6,7 +6,7 @@ return(
 <main className="text-gray-800">
 
 <section className="relative h-[85vh] text-white">
-<Image src="/hair1.jpg" fill className="object-cover" alt=""/>
+<Image src="/hero-salon.jpg" fill className="object-cover" alt="AND Hair&Co salon"/>
 <div className="absolute inset-0 bg-black/60"/>
 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
 <h1 className="text-4xl font-bold">AND Hair&Co</h1>
@@ -20,9 +20,13 @@ return(
 <p className="mt-2">Colour, styling and transformations done with care and precision.</p>
 </section>
 
-<section className="grid md:grid-cols-2 gap-4 p-6">
-<Image src="/hair1.jpg" width={500} height={400} className="rounded-xl" alt=""/>
-<Image src="/hair2.jpg" width={500} height={400} className="rounded-xl" alt=""/>
+<section className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 max-w-5xl mx-auto">
+<div className="flex-1 flex justify-center">
+<Image src="/hair1.jpg" width={500} height={400} className="rounded-xl object-cover" alt="Hair styling example"/>
+</div>
+<div className="flex-1 flex justify-center">
+<Image src="/hair2.jpg" width={500} height={400} className="rounded-xl object-cover" alt="Hair styling example"/>
+</div>
 </section>
 
 <section className="p-8 bg-gray-100 text-center">
