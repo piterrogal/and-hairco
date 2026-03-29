@@ -6,11 +6,19 @@ return(
 <main className="text-gray-800">
 
 <section className="relative h-[85vh] text-white">
-<Image src="/hair1.jpg" fill className="object-cover" alt=""/>
+<Image src="/hero-salon.jpg" fill className="object-cover" alt="AND Hair&Co salon"/>
 <div className="absolute inset-0 bg-black/60"/>
 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
 <h1 className="text-4xl font-bold">AND Hair&Co</h1>
 <p className="mt-3">Hair salon in Cork</p>
+<div className="mt-4 flex items-center gap-2 text-sm">
+<div className="flex items-center gap-1">
+<span className="text-yellow-400">★</span>
+<span className="font-semibold">4.9</span>
+</div>
+<span className="text-white/70">•</span>
+<span>35+ reviews</span>
+</div>
 <a href="tel:0214822545" className="mt-6 bg-white text-black px-6 py-3 rounded-full">Book Appointment</a>
 </div>
 </section>
@@ -20,9 +28,13 @@ return(
 <p className="mt-2">Colour, styling and transformations done with care and precision.</p>
 </section>
 
-<section className="grid md:grid-cols-2 gap-4 p-6">
-<Image src="/hair1.jpg" width={500} height={400} className="rounded-xl" alt=""/>
-<Image src="/hair2.jpg" width={500} height={400} className="rounded-xl" alt=""/>
+<section className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 max-w-5xl mx-auto">
+<div className="relative w-full md:w-[400px] aspect-[3/4] overflow-hidden rounded-xl">
+<Image src="/hair1.jpg" fill className="object-cover object-top" alt="Hair styling example"/>
+</div>
+<div className="relative w-full md:w-[400px] aspect-[3/4] overflow-hidden rounded-xl">
+<Image src="/hair2.jpg" fill className="object-cover object-top" alt="Hair styling example"/>
+</div>
 </section>
 
 <section className="p-8 bg-gray-100 text-center">
