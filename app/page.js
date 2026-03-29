@@ -17,7 +17,7 @@ return(
 <span className="font-semibold">4.9</span>
 </div>
 <span className="text-white/70">•</span>
-<span>35+ opinii</span>
+<span>35+ reviews</span>
 </div>
 <a href="tel:0214822545" className="mt-6 bg-white text-black px-6 py-3 rounded-full">Book Appointment</a>
 </div>
