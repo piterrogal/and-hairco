@@ -21,11 +21,11 @@ return(
 </section>
 
 <section className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 max-w-5xl mx-auto">
-<div className="flex-1 flex justify-center">
-<Image src="/hair1.jpg" width={500} height={400} className="rounded-xl object-cover" alt="Hair styling example"/>
+<div className="relative w-full md:w-[400px] aspect-[3/4] overflow-hidden rounded-xl">
+<Image src="/hair1.jpg" fill className="object-cover object-top" alt="Hair styling example"/>
 </div>
-<div className="flex-1 flex justify-center">
-<Image src="/hair2.jpg" width={500} height={400} className="rounded-xl object-cover" alt="Hair styling example"/>
+<div className="relative w-full md:w-[400px] aspect-[3/4] overflow-hidden rounded-xl">
+<Image src="/hair2.jpg" fill className="object-cover object-top" alt="Hair styling example"/>
 </div>
 </section>
 

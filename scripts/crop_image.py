@@ -1,9 +1,24 @@
 from PIL import Image
 import os
+import glob
 
-# Paths
-hair1_path = "/vercel/share/v0-project/public/hair1.jpg"
-hair2_path = "/vercel/share/v0-project/public/hair2.jpg"
+# Find the project root by looking for public folder
+cwd = os.getcwd()
+print(f"Current working directory: {cwd}")
+
+# List contents of current directory
+print(f"Contents of cwd: {os.listdir(cwd)}")
+
+# Try to find public folder
+public_candidates = glob.glob("**/public", recursive=True)
+print(f"Public folder candidates: {public_candidates}")
+
+# Use direct path
+hair1_path = "public/hair1.jpg"
+hair2_path = "public/hair2.jpg"
+
+print(f"Hair1 exists: {os.path.exists(hair1_path)}")
+print(f"Hair2 exists: {os.path.exists(hair2_path)}")
 
 # Get dimensions of hair1 (the reference image - red hair)
 with Image.open(hair1_path) as img1:
