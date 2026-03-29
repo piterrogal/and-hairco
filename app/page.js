@@ -11,6 +11,14 @@ return(
 <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
 <h1 className="text-4xl font-bold">AND Hair&Co</h1>
 <p className="mt-3">Hair salon in Cork</p>
+<div className="mt-4 flex items-center gap-2 text-sm">
+<div className="flex items-center gap-1">
+<span className="text-yellow-400">★</span>
+<span className="font-semibold">4.9</span>
+</div>
+<span className="text-white/70">•</span>
+<span>35+ opinii</span>
+</div>
 <a href="tel:0214822545" className="mt-6 bg-white text-black px-6 py-3 rounded-full">Book Appointment</a>
 </div>
 </section>
